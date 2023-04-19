@@ -1,5 +1,5 @@
 {% set name = "marquez-python" %}
-{% set version = "0.32.0" %}
+{% set version = "0.33.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/marquez-python-{{ version }}.tar.gz
-  sha256: 8e09985b6de314447dfb4fbdd3a91248c1e194fe091a3cccf457b02797d2fef7
+  sha256: 43ed4eb100d42e72a356d587599974b381ab627e7d7a39c709adca1f92357d7b
 
 build:
   noarch: python
