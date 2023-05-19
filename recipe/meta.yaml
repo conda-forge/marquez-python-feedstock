@@ -35,7 +35,10 @@ test:
     - pip
 
 about:
-  home: https://pypi.org/project/marquez-python/
+  home: https://github.com/MarquezProject/marquez
+  dev_url: https://github.com/MarquezProject/marquez/tree/main/clients/python  
+  doc_url: https://marquezproject.github.io/marquez/openapi.html
+  doc_source_url: https://github.com/MarquezProject/marquez/blob/main/docs/openapi.html
   summary: Marquez Python Client
   license: Apache-2.0
   license_family: Apache
