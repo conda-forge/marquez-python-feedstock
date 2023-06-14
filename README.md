@@ -3,11 +3,15 @@ About marquez-python-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/marquez-python-feedstock/blob/main/LICENSE.txt)
 
-Home: https://pypi.org/project/marquez-python/
+Home: https://github.com/MarquezProject/marquez
 
 Package license: Apache-2.0
 
 Summary: Marquez Python Client
+
+Development: https://github.com/MarquezProject/marquez/tree/main/clients/python
+
+Documentation: https://marquezproject.github.io/marquez/openapi.html
 
 Current build status
 ====================

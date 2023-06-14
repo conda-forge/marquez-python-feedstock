@@ -1,5 +1,5 @@
 {% set name = "marquez-python" %}
-{% set version = "0.34.0" %}
+{% set version = "0.35.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/marquez-python-{{ version }}.tar.gz
-  sha256: f98bb7da86d34557b5a2102ba97e98123726dad39df3a510d30f5691e2c44c8e
+  sha256: 368a9b265f5c81f7e8453021523a39eb30b8399cd2176b54405fe46961572844
 
 build:
   noarch: python
@@ -36,7 +36,7 @@ test:
 
 about:
   home: https://github.com/MarquezProject/marquez
-  dev_url: https://github.com/MarquezProject/marquez/tree/main/clients/python  
+  dev_url: https://github.com/MarquezProject/marquez/tree/main/clients/python
   doc_url: https://marquezproject.github.io/marquez/openapi.html
   doc_source_url: https://github.com/MarquezProject/marquez/blob/main/docs/openapi.html
   summary: Marquez Python Client
